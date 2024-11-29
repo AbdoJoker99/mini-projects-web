@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: linear-gradient(to right bottom,purple,orange);
+}
+
+#main{
+    min-height: 100vh;
+
+    border-bottom: 50px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#addBtn{
+
+    position: fixed;
+
+    top: 20px;
+
+    right: 20px;
+
+    padding: 10px;
+
+    color: azure;
+
+    background-color: green;
+
+    cursor: pointer;
+
+    transition:backgorund-colod 0.3sex ease;
+}
+
+#addBtn :hover{
+
+    background-color: blue;
+
+}
+
+.note{
+
+   
+
+    background-color: #393939;
+
+    margin: 15px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+
+    overflow: hidden;
+
+    transition: box-shadow 0.2sec ease-in ;
+
+}
+
+.tools{
+    background-color: #222831;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    padding: 10px;
+}
+
+.tools i{
+
+    padding: 5px;
+
+    cursor: pointer;
+
+    transition: color 0.2sec ease;
+}
+
+.tools i:hover{
+
+    color: #aca1a1;
+
+}
+
+.note textarea{
+
+    width: 300px;
+
+    border: none ;
+
+
+    min-height: 150x;
+
+    resize: none;
+
+    padding: 10px;
+
+    font-size: 16px;
+
+    color: white;
+
+    background-color: transparent;
+
+}
+
+.note textarea:focus{
+
+    outline: none;
+}

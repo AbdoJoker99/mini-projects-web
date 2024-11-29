@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <title>password generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>password generator</h1>
+        <div class="inputBox">
+            <input type="text" id="passBox" class="passBox" disabled>
+            <span class="material-icons">
+             <i class="fas fa-copy"></i>
+            </span>
+        </div>
+        <input type="range" min="10" max="30" value="10"  id="inputSlider">
+
+        <div class="row">
+            <p>password length :</p>
+
+            <span id="sliderValue">10</span>
+        </div>
+
+        <div class="row">
+            <label for="lowercase">include lowercase letters (a-z)</label>
+            <input type="checkbox" name="lowercase" id="lowercase" checked>
+
+        </div>
+
+        <div class="row">
+            <label for="uppercse">include uppercase letters (A-Z)</label>
+            <input type="checkbox" name="uppercse" id="uppercse" checked>
+
+        </div>
+
+        <div class="row">
+            <label for="numbers">include numbers (0-9)</label>
+            <input type="checkbox" name="numbers" id="numbers" checked>
+
+        </div>
+
+        <div class="row">
+            <label for="symbols">include symbols letters (@ *)</label>
+            <input type="checkbox" name="symbols" id="symbols" checked>
+
+        </div>
+        <button type="button" class="getBtn" id="getBtn">Generate password</button>
+    </div>
+    <script src="javaScript/script.js"></script>
+</body>
+</html>
