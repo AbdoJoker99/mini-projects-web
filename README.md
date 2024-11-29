@@ -1,87 +1,111 @@
-# mini-projects-web
+# 10 Mini Web Projects
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Folder Structure](#folder-structure)
-- [Localization](#localization)
-- [Theming](#theming)
-- [Contributors](#contributors)
+This repository contains **10 small web development projects** built using **HTML**, **CSS**, and **JavaScript**. Each project demonstrates different web development skills, focusing on interactivity and creativity.
 
-## Overview
-This is a Flutter-based To-Do application that helps users efficiently manage daily tasks. The app supports multi-language localization and theming, allowing users to toggle between light and dark modes. It is cross-platform and works on both Android and iOS devices.
+---
+
+## Projects Overview
+
+Here is a list of the projects in this repository:
+
+1. **Age Calculator**  
+   - A web app to calculate your age in years, months, and days.
+
+2. **Note App**  
+   - Create, edit, delete, and manage notes.
+
+3. **Random Paragraph Generator**  
+   - Generate random placeholder paragraphs for use in mock designs.
+
+4. **Background Color Changer**  
+   - Click a button to change the background color of the webpage dynamically.
+
+5. **Bookmark Website Mockup**  
+   - A basic structure for bookmark website.
+
+6. **Hex Color Generator**  
+   - Generate random hexadecimal color codes and copy them easily.
+
+7. **Password Generator**  
+   - Create secure, random passwords with adjustable options.
+
+8. **Password Strength Checker**  
+   - A tool to evaluate the strength of passwords with visual feedback.
+
+9. **Piano App**  
+   - Play a virtual piano with the keyboard or mouse.
+
+10. **Vowel Counter**  
+    - Enter text, and the app will count the vowels in it.
+
+---
 
 ## Features
-- **Task Management**: Add, edit, delete, and mark tasks as completed.
-- **Task Prioritization**: Set task priorities (High, Medium, Low).
-- **Reminders**: Notifications for upcoming tasks.
-- **Categories**: Organize tasks by categories.
-- **Localization**: Multi-language support for global accessibility.
-- **Theming**: Switch between light and dark modes.
 
-## Screenshots
-Include your app screenshots here.
+- Interactive and visually engaging designs.
+- Fully functional web applications.
+- Built with **pure HTML, CSS, and JavaScript**—no external libraries.
+- Beginner-friendly but useful for real-world practice.
+
+---
 
 ## Getting Started
 
-### Prerequisites
-Ensure you have the following installed before running this project:
-- Flutter SDK
-- Dart SDK
-- Android Studio or VS Code
+To view any of the projects:
 
-### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/flutter_todo_app.git
-# Flutter Task Management App
-
-A task management app built with Flutter that supports multiple languages, custom themes, and a structured directory layout for scalability and maintainability.
-
-## Getting Started
-
-To get the project dependencies and run the app on your device or emulator, use the following commands:
-
-```bash
-# Fetch project dependencies
-flutter pub get
-
-# Run the app
-flutter run
-```
+   git clone https://github.com/AbdoJoker99/mini-web-projects.git
+   cd mini-web-projects
 
 ## Folder Structure
 
 The project follows a structured directory layout to ensure maintainability and scalability:
 
 ```bash
-lib/
-  ├── main.dart                # Entry point of the app
-  ├── screens/                 # App screens (Home, AddTask, etc.)
-  ├── widgets/                 # Custom widgets (TaskItem, CategoryWidget)
-  ├── models/                  # Data models (Task, Category)
-  ├── localization/            # Localization resources
-  ├── theme/                   # Light and dark theme files
-  └── utils/                   # Utility functions (e.g., date formatting)
+mini-web-projects/
+  ├── Age Calculator/
+  │     ├── index.html
+  │     ├── style.css
+  │     └── script.js
+  ├── Note/
+  │     ├── index.html
+  │     ├── style.css
+  │     └── script.js
+  ├── Random Paragraph Generator/
+  │     ├── index.html
+  │     ├── style.css
+  │     └── script.js
+  ├── Background Color Changer/
+  │     ├── index.html
+  │     ├── style.css
+  │     └── script.js
+  ├── Book mark/
+  │     ├── index.html
+  │     ├── style.css
+  │     └── script.js
+  ├── Hex Color Generator/
+  │     ├── index.html
+  │     ├── style.css
+  │     └── script.js
+  ├── Password Generator/
+  │     ├── index.html
+  │     ├── style.css
+  │     └── script.js
+  ├── Password Strength Checker/
+  │     ├── index.html
+  │     ├── style.css
+  │     └── script.js
+  ├── Piano/
+  │     ├── index.html
+  │     ├── style.css
+  │     └── script.js
+  └── Vowel Counter/
+        ├── index.html
+        ├── style.css
+        └── script.js
+
 ```
-
-## Localization
-
-This app supports multiple languages. To add support for a new language, follow these steps:
-```dart
-arb-dir: lib/l10n
-template-arb-file: app_en.arb
-output-localization-file: app_localizations.dar
-```
-
-## Theming
-
-The app supports both light and dark themes. You can customize the themes by editing the `light_theme.dart` and `dark_theme.dart` files located in the `lib/theme/` directory.
-
 ## Contributors
 
 - **Abdelrahman Wael** - [GitHub Profile](https://github.com/AbdoJoker99)
