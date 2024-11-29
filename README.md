@@ -56,7 +56,7 @@ To view any of the projects:
 1. Clone the repository:
    ```bash
    git clone https://github.com/AbdoJoker99/mini-web-projects.git
-   cd mini-web-projects
+   ```
 
 ## Folder Structure
 
