@@ -98,6 +98,7 @@ mini-web-projects/
   │     └── script.js
   ├── Piano/
   │     ├── index.html
+        ├── sounds
   │     ├── style.css
   │     └── script.js
   └── Vowel Counter/
