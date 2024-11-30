@@ -62,51 +62,6 @@ To view any of the projects:
 
 The project follows a structured directory layout to ensure maintainability and scalability:
 
-```bash
-mini-web-projects/
-  ├── Age Calculator/
-  │     ├── index.html
-  │     ├── style.css
-  │     └── script.js
-  ├── Note/
-  │     ├── index.html
-  │     ├── style.css
-  │     └── script.js
-  ├── Random Paragraph Generator/
-  │     ├── index.html
-  │     ├── style.css
-  │     └── script.js
-  ├── Background Color Changer/
-  │     ├── index.html
-  │     ├── style.css
-  │     └── script.js
-  ├── Book mark/
-  │     ├── index.html
-  │     ├── style.css
-  │     └── script.js
-  ├── Hex Color Generator/
-  │     ├── index.html
-  │     ├── style.css
-  │     └── script.js
-  ├── Password Generator/
-  │     ├── index.html
-  │     ├── style.css
-  │     └── script.js
-  ├── Password Strength Checker/
-  │     ├── index.html
-  │     ├── style.css
-  │     └── script.js
-  ├── Piano/
-  │     ├── index.html
-        ├── sounds
-  │     ├── style.css
-  │     └── script.js
-  └── Vowel Counter/
-        ├── index.html
-        ├── style.css
-        └── script.js
-
-```
 ## Contributors
 
 - **Abdelrahman Wael** - [GitHub Profile](https://github.com/AbdoJoker99)
