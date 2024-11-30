@@ -58,10 +58,6 @@ To view any of the projects:
    git clone https://github.com/AbdoJoker99/mini-web-projects.git
    ```
 
-## Folder Structure
-
-The project follows a structured directory layout to ensure maintainability and scalability:
-
 ## Contributors
 
 - **Abdelrahman Wael** - [GitHub Profile](https://github.com/AbdoJoker99)
