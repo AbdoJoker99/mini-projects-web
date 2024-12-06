@@ -1,6 +1,6 @@
-# 10 Mini Web Projects
+#  Mini Web Projects
 
-This repository contains **10 small web development projects** built using **HTML**, **CSS**, and **JavaScript**. Each project demonstrates different web development skills, focusing on interactivity and creativity.
+This repository contains ** small web development projects** built using **HTML**, **CSS**, and **JavaScript**. Each project demonstrates different web development skills, focusing on interactivity and creativity.
 
 ---
 
